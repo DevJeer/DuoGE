@@ -27,9 +27,15 @@
     <ClInclude Include="src\Duo\EntryPoint.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\Duo\Log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Duo\Application.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Duo\Log.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

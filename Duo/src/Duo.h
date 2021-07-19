@@ -2,8 +2,8 @@
 
 // use by application
 #include "Duo/Application.h"
-
-#include <stdio.h>
+// log
+#include "Duo/Log.h"
 
 // entry point
 #include "Duo/EntryPoint.h"

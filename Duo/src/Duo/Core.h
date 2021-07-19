@@ -4,7 +4,7 @@
 	#ifdef DUO_BUILD_DLL
 		#define DUO_API __declspec(dllexport)
 	#else
-		#define DUO_API __declspec(dllexport)
+		#define DUO_API __declspec(dllimport)
 	#endif // DUO_BUILD_DLL
 #else
 	#error DUO only support windows!
