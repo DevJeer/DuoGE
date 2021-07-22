@@ -4,6 +4,9 @@
     <Filter Include="Duo">
       <UniqueIdentifier>{ADE3870B-19ED-877C-A268-9E7C0E71937C}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Duo\Events">
+      <UniqueIdentifier>{F10A5DC1-DDC2-9E0E-46CA-776A32A139FF}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Duo.h" />
@@ -15,6 +18,9 @@
     </ClInclude>
     <ClInclude Include="src\Duo\EntryPoint.h">
       <Filter>Duo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Duo\Events\Event.h">
+      <Filter>Duo\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Duo\Log.h">
       <Filter>Duo</Filter>
