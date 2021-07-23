@@ -11,8 +11,8 @@ int main() {
 	DUO_CORE_INFO("Core Logger inited...");
 	DUO_CORE_INFO("Hello Duo Core---{0}", 1);
 
-	DUO_CLIENT_WARN("Client Logger inited...");
-	DUO_CLIENT_WARN("Hello Duo Client---{0}", 2);
+	DUO_WARN("Client Logger inited...");
+	DUO_WARN("Hello Duo Client---{0}", 2);
 
 
 	auto app = Duo::CreateApplication();

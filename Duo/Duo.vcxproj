@@ -147,7 +147,10 @@
     <ClInclude Include="src\Duo\Application.h" />
     <ClInclude Include="src\Duo\Core.h" />
     <ClInclude Include="src\Duo\EntryPoint.h" />
+    <ClInclude Include="src\Duo\Events\ApplicationEvent.h" />
     <ClInclude Include="src\Duo\Events\Event.h" />
+    <ClInclude Include="src\Duo\Events\KeyEvent.h" />
+    <ClInclude Include="src\Duo\Events\MouseEvent.h" />
     <ClInclude Include="src\Duo\Log.h" />
   </ItemGroup>
   <ItemGroup>

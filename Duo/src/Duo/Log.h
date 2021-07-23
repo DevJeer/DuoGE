@@ -3,6 +3,7 @@
 #include "Core.h"
 #include <memory>
 #include "spdlog/spdlog.h"
+#include "spdlog/fmt/ostr.h"
 
 
 namespace Duo {
@@ -33,8 +34,8 @@ namespace Duo {
 #define DUO_CORE_CRITICAL(...)  ::Duo::Log::GetCoreLogger()->critical(__VA_ARGS__)
 
 // Client Log macros
-#define DUO_CLIENT_TRACE(...)		::Duo::Log::GetClientLogger()->trace(__VA_ARGS__)
-#define DUO_CLIENT_INFO(...)		::Duo::Log::GetClientLogger()->info(__VA_ARGS__)
-#define DUO_CLIENT_WARN(...)		::Duo::Log::GetClientLogger()->warn(__VA_ARGS__)
-#define DUO_CLIENT_ERROR(...)		::Duo::Log::GetClientLogger()->error(__VA_ARGS__)
-#define DUO_CLIENT_CRITICAL(...)	::Duo::Log::GetClientLogger()->critical(__VA_ARGS__)
+#define DUO_TRACE(...)		::Duo::Log::GetClientLogger()->trace(__VA_ARGS__)
+#define DUO_INFO(...)		::Duo::Log::GetClientLogger()->info(__VA_ARGS__)
+#define DUO_WARN(...)		::Duo::Log::GetClientLogger()->warn(__VA_ARGS__)
+#define DUO_ERROR(...)		::Duo::Log::GetClientLogger()->error(__VA_ARGS__)
+#define DUO_CRITICAL(...)	::Duo::Log::GetClientLogger()->critical(__VA_ARGS__)

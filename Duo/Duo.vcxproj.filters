@@ -19,7 +19,16 @@
     <ClInclude Include="src\Duo\EntryPoint.h">
       <Filter>Duo</Filter>
     </ClInclude>
+    <ClInclude Include="src\Duo\Events\ApplicationEvent.h">
+      <Filter>Duo\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Duo\Events\Event.h">
+      <Filter>Duo\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Duo\Events\KeyEvent.h">
+      <Filter>Duo\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Duo\Events\MouseEvent.h">
       <Filter>Duo\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Duo\Log.h">
