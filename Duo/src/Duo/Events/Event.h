@@ -1,9 +1,7 @@
 #pragma once
 
+#include "duopch.h"
 #include "Duo/Core.h"
-
-#include <string>
-#include <functional>
 
 namespace Duo {
 	enum class EventType {

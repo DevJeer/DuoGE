@@ -1,3 +1,4 @@
+#include "duopch.h"
 #include "Application.h"
 #include "Duo/Events/ApplicationEvent.h"
 #include "Duo/Log.h"

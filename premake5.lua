@@ -18,6 +18,9 @@ project "Duo"
     targetdir ("bin/" .. outputdir .. "/%{prj.name}") --..在lua中表示连接字符串
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+    pchheader "duopch.h"            --pre compiler header
+    pchsource "Duo/src/duopch.cpp"
+
     files
     {
         "%{prj.name}/src/**.h",     --**表示添加当前文件夹以及子文件夹下的所有.h文件

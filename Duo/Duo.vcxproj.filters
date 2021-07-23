@@ -34,6 +34,7 @@
     <ClInclude Include="src\Duo\Log.h">
       <Filter>Duo</Filter>
     </ClInclude>
+    <ClInclude Include="src\duopch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Duo\Application.cpp">
@@ -42,5 +43,6 @@
     <ClCompile Include="src\Duo\Log.cpp">
       <Filter>Duo</Filter>
     </ClCompile>
+    <ClCompile Include="src\duopch.cpp" />
   </ItemGroup>
 </Project>
